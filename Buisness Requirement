@@ -1,3 +1,6 @@
 We have data available in blob storage account
 we need to move the data in another storage container(copy only the file which is not empty)
 create one data factory pipeline which will take all the files having value and copy into container2
+
+In lookup activity: @variables('filename')
+if condition :@greater(activity('Lookup1').output.count,0) it will give tru when file count is greater that 0
