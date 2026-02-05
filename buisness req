@@ -1,0 +1,8 @@
+We have data coming in input blob storage account and we are running pipeline which usually takes the data and write into sql
+our req is to delete all files whoch is older then 7 days from input container
+So pipeline should run and its should delete file older than 7 days.
+
+
+Solution:
+1. Use get metadata activity to get the file names and using for each you can delete
+in getdata activity setting there is one field i.e "filter by last modified" in that click on dynamic and from fucntions select "adddays"(@adddays(utcnow(), -7)
