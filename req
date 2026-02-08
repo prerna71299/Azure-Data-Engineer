@@ -1,0 +1,3 @@
+We have to do API call which will download the zip file from given URL
+we need to unzip and copy into storage accounts
+create a data pipeline for this
