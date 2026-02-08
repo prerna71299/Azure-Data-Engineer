@@ -1,0 +1,12 @@
+{
+	"name": "HttpServer1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmJRVklWaUQ0S3g3VTFoQUswTnNQS1dqMUFGUXxBQ3Jtc0ttNF9zWm0yaDdnaTk4VHZvRUpDd19BSHQ3dVBrMks5bnRFMnNxQjZDR0NiYjVhVVhMMUctUWpuallkVHFRYkNyWGN1OHpfZHpGTDZ2bGJSZmlDSXhoSVNWXzBYanRMSWw2YlhIUWJEOEtoNjNOYkdOVQ&q=https%3A%2F%2Fdrive.usercontent.google.com%2Fu%2F0%2Fuc%3Fid%3D1bmmtkc5NLZQ4iU6Qz_7di-juuxA2kT1t%26export%3Ddownload&v=NaNZ6kMS8Oo",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
