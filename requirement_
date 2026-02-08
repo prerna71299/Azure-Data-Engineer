@@ -1,0 +1,6 @@
+how to get email notifications for pipeline failures by creating alert rules within azure Data Factory.
+
+1. Create file for example for set variable acvtivity
+2. for failure we need to receive an email alert for failure
+3. Go to monitor ->alert and metrics-> create an new alert rule -> add action group->add criteria->failed pipeline runs metric that means whenever pipeline failed you will get notification.
+4. to enable that first we need to add microsoft.insights in resouce provider in our subscription
